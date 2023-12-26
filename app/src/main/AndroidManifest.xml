@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MCQBANGLABOOK"
+        tools:targetApi="31">
+        <activity
+            android:name=".Probas_Bondhu"
+            android:exported="false" />
+        <activity
+            android:name=".Sahittor_Rup"
+            android:exported="false" />
+        <activity
+            android:name=".EkattorER_Dinguli"
+            android:exported="false" />
+        <activity
+            android:name=".Momotadi"
+            android:exported="false" />
+        <activity
+            android:name=".ShikkaO_Monosotto"
+            android:exported="false" />
+        <activity
+            android:name=".NimGas"
+            android:exported="false" />
+        <activity
+            android:name=".ManusMohammad"
+            android:exported="false" />
+        <activity
+            android:name=".AmAtirVepu"
+            android:exported="false" />
+        <activity
+            android:name=".Pollisahitto"
+            android:exported="false" />
+        <activity
+            android:name=".DenaPawna"
+            android:exported="false" />
+        <activity
+            android:name=".Libery"
+            android:exported="false" />
+        <activity
+            android:name=".Protupokar"
+            android:exported="false" />
+        <activity
+            android:name=".FulerBibago"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaBook"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Boi_Pora"
+            android:exported="true" />
+    </application>
+
+</manifest>

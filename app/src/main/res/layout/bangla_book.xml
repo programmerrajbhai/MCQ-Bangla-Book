@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BanglaBook">
+
+    <Button
+        android:id="@+id/shuva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সুভা " />
+
+    <Button
+        android:id="@+id/boipora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বই পড়া" />
+    <Button
+        android:id="@+id/fulerbibaho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ফুলের বিবাহ" />
+
+    <Button
+        android:id="@+id/protupokar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="protupokar" />
+    <Button
+        android:id="@+id/libery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="libery" />
+
+    <Button
+        android:id="@+id/denapawna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="denapawna" />
+
+
+    <Button
+        android:id="@+id/pollisahitto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pollisahitto" />
+
+
+    <Button
+        android:id="@+id/AmAirVepuQNA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AmAirVepuQNA" />
+
+
+    <Button
+        android:id="@+id/ManusMuhammod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ManusMuhammod" />
+
+
+    <Button
+        android:id="@+id/NimGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NimGas" />
+    <Button
+        android:id="@+id/Shikkamonosotto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shikkamonosotto" />
+    <Button
+        android:id="@+id/momotadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="momotadi" />
+    <Button
+        android:id="@+id/AkattorErdinGuli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AkattorErdinGuli" />
+    <Button
+        android:id="@+id/SahittorRup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sahittor Rup" />
+    <Button
+        android:id="@+id/ProbasBondhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProbasBondhu" />
+
+
+
+
+
+
+
+</LinearLayout>

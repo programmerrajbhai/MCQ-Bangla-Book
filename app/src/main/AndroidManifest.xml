@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MCQBANGLABOOK"
         tools:targetApi="31">
         <activity
+            android:name=".PolliJononi"
+            android:exported="false" />
+        <activity
+            android:name=".KopotakkhoNod"
+            android:exported="false" />
+        <activity
+            android:name=".TmakePawerJonno"
+            android:exported="false" />
+        <activity
+            android:name=".AmrPoricoy"
+            android:exported="false" />
+        <activity
+            android:name=".Sei_DinAimat"
+            android:exported="false" />
+        <activity
+            android:name=".jibonSongit"
+            android:exported="false" />
+        <activity
             android:name=".Probas_Bondhu"
             android:exported="false" />
         <activity

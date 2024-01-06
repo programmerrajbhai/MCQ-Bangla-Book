@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,97 +7,982 @@
     android:layout_height="match_parent"
     tools:context=".BanglaBook">
 
-    <Button
-        android:id="@+id/shuva"
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/black"
+            >
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#66623185"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/polliJononi"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="পল্লিজননী" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="20dp"
+            >
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#66623185"
+                android:weightSum="3"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/baseline_menu_book_24"
+                    />
+                <TextView
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:id="@+id/kopotakkho"
+                    android:layout_width="0dp"
+
+                    android:layout_weight="2"
+                    android:layout_height="match_parent"
+                    android:text="কপোতাক্ষ নদ" />
+                <ImageView
+                    android:layout_marginEnd="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#66623185"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/TomakePawerJonno"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="তোমাকে পাওয়ার জন্যে, হে স্বাধীনতা" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#66623185"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/amrporichoy"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="আমার পরিচয়" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#66623185"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/seidinaimat"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="সেইদিন এই মাঠ" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="সুভা " />
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="20dp"
+        >
+        <LinearLayout
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66623185"
+            android:weightSum="3"
+            android:orientation="horizontal"
 
-    <Button
-        android:id="@+id/boipora"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="বই পড়া" />
-    <Button
-        android:id="@+id/fulerbibaho"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ফুলের বিবাহ" />
+            >
 
-    <Button
-        android:id="@+id/protupokar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="protupokar" />
-    <Button
-        android:id="@+id/libery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="libery" />
+            <ImageView
+                android:padding="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_menu_book_24"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                 android:id="@+id/jibonsongit"
+                android:layout_width="0dp"
 
-    <Button
-        android:id="@+id/denapawna"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="denapawna" />
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="জীবন-সঙ্গীত" />
+            <ImageView
+              android:layout_marginEnd="15sp"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:clickable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#66623185"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
 
+                    >
 
-    <Button
-        android:id="@+id/pollisahitto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="pollisahitto" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/shuva"
+                        android:layout_width="0dp"
 
-
-    <Button
-        android:id="@+id/AmAirVepuQNA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AmAirVepuQNA" />
-
-
-    <Button
-        android:id="@+id/ManusMuhammod"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ManusMuhammod" />
-
-
-    <Button
-        android:id="@+id/NimGas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="NimGas" />
-    <Button
-        android:id="@+id/Shikkamonosotto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Shikkamonosotto" />
-    <Button
-        android:id="@+id/momotadi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="momotadi" />
-    <Button
-        android:id="@+id/AkattorErdinGuli"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AkattorErdinGuli" />
-    <Button
-        android:id="@+id/SahittorRup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sahittor Rup" />
-    <Button
-        android:id="@+id/ProbasBondhu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ProbasBondhu" />
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="সুভা " />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
 
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/boipora"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="বই পড়া" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/fulerbibaho"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="ফুলের বিবাহ" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/protupokar"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="প্রত্যুপকার"/>
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/libery"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="লাইব্রেরী"/>
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/denapawna"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="দেনা পাওনা" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/pollisahitto"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="পল্লী সাহিত্য" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/AmAirVepuQNA"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="আম আঁটির ভেঁপু" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/ManusMuhammod"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="মানুষ মোহাম্মদ (সা:)" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/NimGas"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="নিম গাছ" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/Shikkamonosotto"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="শিক্ষা ও মনুষ্যত্ব" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/momotadi"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="মমতাদি" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/AkattorErdinGuli"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="একাত্তরের দিনগুলি" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/SahittorRup"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="সাহিত্যের রূপ" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2F151010"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_menu_book_24"
+                        />
+                    <TextView
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/ProbasBondhu"
+                        android:layout_width="0dp"
+
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="প্রবাস বন্ধু" />
+                    <ImageView
+                        android:layout_marginEnd="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baseline_keyboard_arrow_right_24"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
 
 
 
-</LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+</ScrollView>
